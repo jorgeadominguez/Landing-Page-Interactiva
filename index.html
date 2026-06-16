@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CentroViajes – Agencia de Viajes a Centroamérica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">CentroViajes</a>
+  <ul class="nav-links">
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#servicios">Destinos</a></li>
+    <li><a href="#formulario">Contacto</a></li>
+  </ul>
+  <a href="#formulario" class="nav-cta">Cotizar</a>
+  <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#nosotros">Nosotros</a>
+  <a href="#servicios">Destinos</a>
+  <a href="#formulario">Contacto</a>
+  <a href="#formulario" style="color: var(--dorado);">Cotizar ahora →</a>
+</div>
+
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">✦ Especialistas en Centroamérica</div>
+    <h1 class="hero-title">
+      Descubre la magia de<br /><span>Centroamérica</span>
+    </h1>
+    <p class="hero-sub">
+      Paquetes turísticos a Guatemala, Honduras, Nicaragua, Costa Rica, Panamá y Belice.
+      Experiencias auténticas, precios transparentes y atención personalizada.
+    </p>
+    <div class="hero-btns">
+      <a href="#servicios" class="btn-primary">Ver destinos</a>
+      <a href="#formulario" class="btn-outline">Cotizar gratis</a>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<section id="nosotros">
+  <div class="container">
+    <div class="nosotros-grid">
+      <div class="nosotros-img">
+        <img
+          src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80"
+          alt="Equipo de CentroViajes"
+          loading="lazy"
+        />
+      </div>
+      <div class="nosotros-text">
+        <span class="section-tag">Quiénes somos</span>
+        <h2 class="section-title">Tu agencia de confianza desde 2010</h2>
+        <p class="section-sub">
+          En <strong>CentroViajes</strong> conectamos a los viajeros con lo mejor de la región
+          centroamericana. Somos un equipo apasionado por el turismo sostenible, con más de
+          14 años diseñando experiencias inolvidables: desde las ruinas de Tikal hasta las
+          playas de Manuel Antonio, pasando por los volcanes de Nicaragua y los canales de Panamá.
+        </p>
+        <p class="section-sub" style="margin-top: 1rem;">
+          Cada paquete es diseñado a la medida, con guías certificados, transporte seguro
+          y hoteles cuidadosamente seleccionados para garantizar tu comodidad y seguridad.
+        </p>
+        <div class="stats-row">
+          <div class="stat">
+            <span class="stat-num">14+</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">8K+</span>
+            <span class="stat-label">Viajeros satisfechos</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">6</span>
+            <span class="stat-label">Países destino</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicios">
+  <div class="container">
+    <div class="servicios-header">
+      <span class="section-tag">Nuestros destinos</span>
+      <h2 class="section-title">Paquetes turísticos a Centroamérica</h2>
+      <p class="section-sub">
+        Explora nuestra selección de paquetes con todo incluido: vuelos, hospedaje,
+        traslados y tours guiados.
+      </p>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=600&q=80" alt="Guatemala - Tikal" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <p class="card-country">🇬🇹 Guatemala</p>
+          <h3 class="card-title">Tikal & Lago Atitlán</h3>
+          <p class="card-desc">Explora las majestuosas pirámides mayas de Tikal y el impresionante lago volcánico de Atitlán rodeado de comunidades indígenas.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">$549 <span>/ persona</span></div>
+          <a href="#formulario" class="card-btn">Cotizar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80" alt="Costa Rica" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <p class="card-country">🇨🇷 Costa Rica</p>
+          <h3 class="card-title">Manuel Antonio & Arenal</h3>
+          <p class="card-desc">Biodiversidad excepcional en parques nacionales, playas vírgenes del Pacífico y el imponente volcán Arenal con aguas termales.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">$789 <span>/ persona</span></div>
+          <a href="#formulario" class="card-btn">Cotizar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?w=600&q=80" alt="Panamá" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <p class="card-country">🇵🇦 Panamá</p>
+          <h3 class="card-title">Canal de Panamá & Archipiélagos</h3>
+          <p class="card-desc">Maravíllate con la ingeniería del Canal, el Casco Viejo colonial y las paradisíacas islas de Bocas del Toro y San Blas.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">$699 <span>/ persona</span></div>
+          <a href="#formulario" class="card-btn">Cotizar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80" alt="Honduras" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <p class="card-country">🇭🇳 Honduras</p>
+          <h3 class="card-title">Copán & Islas de la Bahía</h3>
+          <p class="card-desc">Descubre las ruinas arqueológicas de Copán y sumérgete en los arrecifes de coral de Roatán, paraíso del buceo caribeño.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">$499 <span>/ persona</span></div>
+          <a href="#formulario" class="card-btn">Cotizar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&q=80" alt="Nicaragua" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <p class="card-country">🇳🇮 Nicaragua</p>
+          <h3 class="card-title">Granada & Volcán Ometepe</h3>
+          <p class="card-desc">Ciudades coloniales de colores vibrantes, laguna de Apoyo y la mística isla de Ometepe formada por dos volcanes en el Lago Nicaragua.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">$429 <span>/ persona</span></div>
+          <a href="#formulario" class="card-btn">Cotizar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600&q=80" alt="Belice" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <p class="card-country">🇧🇿 Belice</p>
+          <h3 class="card-title">Gran Barrera de Coral & Selva</h3>
+          <p class="card-desc">El único país angloparlante de Centroamérica. Hogar de la segunda barrera de coral más grande del mundo y cuevas mayas secretas.</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">$869 <span>/ persona</span></div>
+          <a href="#formulario" class="card-btn">Cotizar</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="formulario">
+  <div class="container">
+    <span class="section-tag">Solicitar cotización</span>
+    <h2 class="section-title">Planifica tu viaje ideal</h2>
+    <p class="section-sub">
+      Completa el formulario y uno de nuestros especialistas te contactará en menos de 24 horas.
+    </p>
+
+    <div class="form-grid">
+      <div class="form-wrapper">
+        <form id="cotizacionForm" novalidate>
+
+          <div class="form-row">
+            <div class="form-group" id="group-nombre">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez" />
+              <span class="error-msg">Por favor ingresa tu nombre completo.</span>
+            </div>
+            <div class="form-group" id="group-email">
+              <label for="email">Correo electrónico *</label>
+              <input type="email" id="email" name="email" placeholder="juan@correo.com" />
+              <span class="error-msg">Ingresa un correo electrónico válido.</span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group" id="group-telefono">
+              <label for="telefono">Teléfono *</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+503 7000-0000" />
+              <span class="error-msg">Ingresa un número de teléfono válido.</span>
+            </div>
+            <div class="form-group" id="group-personas">
+              <label for="personas">Número de viajeros *</label>
+              <input type="number" id="personas" name="personas" placeholder="2" min="1" max="50" />
+              <span class="error-msg">Indica cuántas personas viajan (mínimo 1).</span>
+            </div>
+          </div>
+
+          <div class="form-group" id="group-destino">
+            <label for="destino">Destino de interés *</label>
+            <select id="destino" name="destino">
+              <option value="">— Selecciona un destino —</option>
+              <option value="guatemala">🇬🇹 Guatemala</option>
+              <option value="costa-rica">🇨🇷 Costa Rica</option>
+              <option value="panama">🇵🇦 Panamá</option>
+              <option value="honduras">🇭🇳 Honduras</option>
+              <option value="nicaragua">🇳🇮 Nicaragua</option>
+              <option value="belice">🇧🇿 Belice</option>
+              <option value="multiples">Varios países</option>
+            </select>
+            <span class="error-msg">Por favor selecciona un destino.</span>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group" id="group-fecha-ida">
+              <label for="fecha-ida">Fecha de salida *</label>
+              <input type="date" id="fecha-ida" name="fecha-ida" />
+              <span class="error-msg">Selecciona una fecha de salida.</span>
+            </div>
+            <div class="form-group" id="group-fecha-vuelta">
+              <label for="fecha-vuelta">Fecha de regreso *</label>
+              <input type="date" id="fecha-vuelta" name="fecha-vuelta" />
+              <span class="error-msg">La fecha de regreso debe ser posterior a la de salida.</span>
+            </div>
+          </div>
+
+          <div class="form-group" id="group-mensaje">
+            <label for="mensaje">¿Qué tipo de experiencia buscas? (opcional)</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tus intereses: aventura, cultura, playa, gastronomía..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Solicitar cotización gratuita →</button>
+        </form>
+
+        <div id="form-success">
+          <div class="check-icon">✅</div>
+          <p style="font-size: 1.2rem; color: var(--blanco); margin-bottom: 0.5rem;">¡Solicitud recibida!</p>
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Un asesor te contactará en menos de 24 horas.</p>
+        </div>
+      </div>
+
+      <div class="form-info">
+        <h3>¿Por qué elegir CentroViajes?</h3>
+        <p>Más de 14 años creando experiencias de viaje únicas por toda Centroamérica. Tu aventura comienza con una simple consulta.</p>
+        <div class="info-items">
+          <div class="info-item">
+            <div class="info-icon">🛡️</div>
+            <div>
+              <strong>Viaje seguro y garantizado</strong>
+              <span>Guías certificados y soporte 24/7 durante tu viaje</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">💰</div>
+            <div>
+              <strong>Mejor precio garantizado</strong>
+              <span>Si encuentras mejor precio, lo igualamos</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🗺️</div>
+            <div>
+              <strong>Paquetes a la medida</strong>
+              <span>Itinerarios personalizados según tus intereses y presupuesto</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🌱</div>
+            <div>
+              <strong>Turismo sostenible</strong>
+              <span>Comprometidos con el medio ambiente y las comunidades locales</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div>
+              <strong>Atención personalizada</strong>
+              <span>Respuesta en menos de 24 horas hábiles</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#hero" class="logo">CentroViajes</a>
+      <p>Especialistas en turismo centroamericano desde 2010. Descubre la diversidad natural y cultural de Guatemala, Honduras, Nicaragua, Costa Rica, Panamá y Belice.</p>
+      <div class="social-links">
+        <a href="#" title="Facebook" aria-label="Facebook">f</a>
+        <a href="#" title="Instagram" aria-label="Instagram">ig</a>
+        <a href="#" title="WhatsApp" aria-label="WhatsApp">wa</a>
+        <a href="#" title="YouTube" aria-label="YouTube">yt</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Destinos</h4>
+      <ul>
+        <li><a href="#servicios">Guatemala</a></li>
+        <li><a href="#servicios">Costa Rica</a></li>
+        <li><a href="#servicios">Panamá</a></li>
+        <li><a href="#servicios">Honduras</a></li>
+        <li><a href="#servicios">Nicaragua</a></li>
+        <li><a href="#servicios">Belice</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Servicios</h4>
+      <ul>
+        <li><a href="#formulario">Paquetes turísticos</a></li>
+        <li><a href="#formulario">Viajes de luna de miel</a></li>
+        <li><a href="#formulario">Grupos y empresas</a></li>
+        <li><a href="#formulario">Ecoturismo</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="#nosotros">Quiénes somos</a></li>
+        <li><a href="#formulario">Contacto</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+        <li><a href="#">Términos y condiciones</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> CentroViajes. Todos los derechos reservados.</p>
+    <p>Desarrollado con ❤️ para los amantes de <span>Centroamérica</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

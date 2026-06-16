@@ -30,5 +30,5 @@ Integrar en un proyecto real todos los conocimientos para construir una landing 
 
 ## 🌐 Despliegue en Producción (Live Demo)
 Puedes visualizar el proyecto funcionando directamente en el siguiente enlace:  
-👉 [REEMPLAZA_CON_EL_ENLACE_A_TU_GITHUB_PAGES]
+👉 [https://share.google/aimode/4q6ucj75AxjPae5EQ]
 
